@@ -113,7 +113,7 @@ let Home = () => {
 {/* carousel-section end  */}
 
 
-  <div className="container mx-auto lg:flex  lg:space-x-6">
+  <div className="container  mx-auto lg:flex lg:justify-evenly   lg:space-x-4">
     <div className="border-2 border-gray-40 px-4 py-4 my-6 flex  ">
       <div className="px-4">
         <svg className="w-10 h-10 text-gray-600 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
@@ -158,14 +158,14 @@ let Home = () => {
 
 
 
-<div className="container mx-auto  lg:flex  lg:space-x-6 ">
+<div className="container mx-auto  lg:flex lg:space-x-6 ">
   <div className="border-1 border-gray-400 bg-violet-100  my-6 grid grid-cols-2  ">
     <div className="">
       <img src={men} className="w-50 h-60  "  alt="" />
     </div>
     <div className="  flex flex-col justify-center justify-self-start">
       <p className="font-semibold text-2xl text-gray-600">MEN WEAR</p>
-      <p className="text-sm text-gray-500">Startinf at <span>&#8377;</span> 199</p>
+      <p className="text-sm text-gray-500">Starting at <span>&#8377;</span> 199</p>
       <Link to={"/products/men"} className="border-2 border-gray-400 w-28 h-8 text-center py-1 mt-4 text-sm text-gray-600">SHOP NOW</Link>
     </div>
   </div>
@@ -176,7 +176,7 @@ let Home = () => {
     </div>
     <div className="  flex flex-col justify-center justify-self-start">
       <p className="font-semibold text-2xl text-gray-600">WOMEN WEAR</p>
-      <p className="text-sm text-gray-500">Startinf at <span>&#8377;</span> 199</p>
+      <p className="text-sm text-gray-500">Starting at <span>&#8377;</span> 199</p>
       <Link to={"/products/women"} className="border-2 border-gray-400 w-28 h-8 text-center py-1 mt-4 text-sm text-gray-600">SHOP NOW</Link>
     </div>
   </div>
@@ -188,7 +188,7 @@ let Home = () => {
     </div>
     <div className="  flex flex-col justify-center justify-self-start">
       <p className="font-semibold text-2xl text-gray-600">KIDS WEAR</p>
-      <p className="text-sm text-gray-500">Startinf at <span>&#8377;</span> 199</p>
+      <p className="text-sm text-gray-500">Starting at <span>&#8377;</span> 199</p>
       <Link to={"/products/kids"} className="border-2 border-gray-400 w-28 h-8 text-center py-1 mt-4 text-sm text-gray-600">SHOP NOW</Link>
     </div>
   </div>
